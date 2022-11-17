@@ -1,0 +1,136 @@
+@media (max-width: 1236px) {
+  #service .accordion-button {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1036px) {
+  #service .accordion-button {
+    width: 35%;
+  }
+}
+
+@media (max-width: 890px) {
+  #service .accordion-button {
+    width: 60%;
+  }
+
+  #service .accordion-body .card-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #service .card {
+    background-color: var(--bg-light);
+    max-width: 100%;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    transition: all 0.5s;
+  }
+
+  #testimonial .carousel-item {
+    padding: 8rem 15rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #header .hero .paragraph {
+    max-width: 100%;
+  }
+
+  #portfolio .card-group {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 736px) {
+  #about .info {
+    flex-direction: column;
+  }
+
+  #about .info .right {
+    order: 1;
+    width: 100%;
+  }
+
+  #about .info .left {
+    order: 2;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  #project .l-heading {
+    font-size: var(--fs-lg);
+  }
+
+  #footer .container {
+    flex-direction: column;
+  }
+
+  #footer .social {
+    margin-top: 2rem;
+  }
+
+  #footer .social ion-icon {
+    font-size: 1.4rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 700px) {
+  #testimonial .carousel-item {
+    padding: 8rem;
+    height: 50rem;
+  }
+
+  .l-heading {
+    font-size: var(--fs-xl);
+  }
+}
+
+@media (max-width: 530px) {
+  #service .accordion-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 385px) {
+  #header .hero .button-hero {
+    flex-direction: column;
+  }
+
+  #about .left .s-heading::after {
+    width: 10rem;
+  }
+
+  #testimonial .carousel-item .info-bottom {
+    flex-direction: column;
+  }
+
+  #testimonial .carousel-item .person-img {
+    margin-bottom: 0;
+  }
+
+  #testimonial .carousel-item {
+    padding: 5rem;
+    height: 55rem;
+  }
+
+  #footer .copyright {
+    font-size: var(--fs-xsm);
+    text-align: center;
+  }
+
+  #footer .social {
+    gap: 1rem !important;
+  }
+}
+
+@media (max-width: 276px) {
+  #about .left .s-heading::after {
+    width: 5rem;
+  }
+}

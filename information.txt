@@ -1,0 +1,25 @@
+Font: Rubik
+Text primary: #f87c59
+
+
+Primary color: #f87c59
+Background-light color: #323647
+Background-dark color: #282a39
+
+
+Btn size: 70px, 180px
+Btn font size: 36px
+
+
+Nav Bar Height: 200px
+Nav Bar link Space: 50px
+Nav font size: 36px
+Nav btn size: 50px, 180px
+
+
+Hero section font size: 40px, 72px, 48px, 30px
+Hero section line gap: 50px
+Hero section btn space: 50px
+
+Section top & Bottom gap: 150px
+Section heading gap: 100px
